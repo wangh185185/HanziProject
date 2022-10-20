@@ -27,7 +27,7 @@ function setup() {
 
 function draw() {
   imageMode(CENTER);
-  image(imgZi, 1/2 * width - 30, 1/2 * height, width, height);
+  image(imgZi, 1/2 * width, 1/2 * height, width, height);
 }
 
 function mouseDragged() {
