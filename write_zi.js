@@ -4,7 +4,6 @@
 
 let strokeSizing = 25; 
 let BGcolor = 'tan';
-let button;
 let imgZi;
 // imgZi = loadImage('assets/zi12x12in.png');
 
@@ -18,18 +17,10 @@ function setup() {
   let canvas = createCanvas(900, 900);
   canvas.parent('p5-1');
 
-
   textFont('Montserrat');
   FPS = 60;
   frameRate(FPS);
   background(BGcolor);
-  
-    //Wipe to Clean button below
-  button = createButton('Click to Retry');
-  button.position(0, height);
-  button.mousePressed(changeBG);
-  button.size(150,50);
-  button.style("font-size", "18px");
 
   // imgZi = loadImage('assets/zi12x12in.png');
 }
