@@ -33,10 +33,11 @@ body {
 }
 
 button {
-    padding: 7px;
+    padding: 720px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+	font-size: 2rem;
 }
 
 #P5-1 {
