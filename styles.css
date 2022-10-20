@@ -1,6 +1,6 @@
 main {
     color:rgb(0, 0, 0) ;
-	align-content: center;
+	/* align-content: center; */
 	text-align: center;
 }
 
@@ -30,6 +30,13 @@ body {
 .canvas {
 	align-content: center;
 	border: medium dashed green;
+}
+
+button {
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 #P5-1 {
