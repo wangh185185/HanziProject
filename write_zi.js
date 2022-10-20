@@ -14,7 +14,7 @@ function preload() {
 function setup() {
 
   //this positions the canvas on the standard location rather than on the default bottom.
-  let canvas = createCanvas(900, 900);
+  let canvas = createCanvas(700, 700);
   canvas.parent('p5-1');
 
   textFont('Montserrat');
@@ -27,7 +27,7 @@ function setup() {
 
 function draw() {
   imageMode(CENTER);
-  image(imgZi, 1/2 * width, 1/2 * height, width, height);
+  image(imgZi, 1/2 * width - 30, 1/2 * height, width, height);
 }
 
 function mouseDragged() {
