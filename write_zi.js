@@ -41,7 +41,7 @@ function draw() {
 
 function mouseDragged() {
     noStroke();
-    fill('blue');
+    fill('black');
     ellipse(mouseX, mouseY, strokeSizing);
 }
 
