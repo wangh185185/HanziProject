@@ -45,7 +45,11 @@ function mouseDragged() {
     ellipse(mouseX, mouseY, strokeSizing);
 }
 
-function changeBG() {
-  clear(mouseDragged);
-  background(BGcolor);
+function keyPressed() {
+  //press "space" to clear canvas
+  if (key === " ") {
+    clear(mouseDragged);
+    background(BGcolor);
+  }
 }
+
