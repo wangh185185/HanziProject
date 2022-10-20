@@ -1,5 +1,5 @@
 function clearBoard() {
-    alert("The function 'clearBoard' is executed");
+    // alert("Enjor Your New Board");
     clear(mouseDragged);
     background(BGcolor);
   }
